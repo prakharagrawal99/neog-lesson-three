@@ -2,6 +2,8 @@
 
 :root{
     --primary-color: #6C63FF;
+    --off-white: #F3F4F6;
+    --dark-gray: #6B7280;
 }
 
 body{
@@ -58,8 +60,55 @@ hr{
 .navigation{
     background-color: var(--primary-color);
     color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem ;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
 }
 
 .navigation .link{
     color: white;
 }
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+/* header */
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-image {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    padding-top: 1rem;
+    color: var(--dark-gray) ;
+}
+
+/* sections */
+
+.sections {
+    padding:2rem;
+}
+
+.sections h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
